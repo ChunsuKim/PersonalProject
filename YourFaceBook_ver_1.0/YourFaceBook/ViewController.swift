@@ -156,9 +156,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
             if user.name == id && user.password == password {
                 print("Signin Success")
                 
-                let secondTableViewController = SecondTableViewController()
+                let secondViewController = SecondViewController()
 //                SecondTableViewController.currentUser = user
-                present(secondTableViewController, animated: true, completion: nil)
+                present(secondViewController, animated: true, completion: nil)
             }
         }
         

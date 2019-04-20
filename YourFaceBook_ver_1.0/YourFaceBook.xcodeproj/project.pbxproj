@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F373EAE5226886E2003CB1F5 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373EAE4226886E2003CB1F5 /* SecondTableViewController.swift */; };
 		F373EAE7226892C4003CB1F5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373EAE6226892C4003CB1F5 /* SecondViewController.swift */; };
 		F373EAE92268A48F003CB1F5 /* FeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373EAE82268A48F003CB1F5 /* FeedData.swift */; };
 		F373EAEB2268A53F003CB1F5 /* AppImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373EAEA2268A53F003CB1F5 /* AppImageData.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F373EAE4226886E2003CB1F5 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		F373EAE6226892C4003CB1F5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F373EAE82268A48F003CB1F5 /* FeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedData.swift; sourceTree = "<group>"; };
 		F373EAEA2268A53F003CB1F5 /* AppImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImageData.swift; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				F3A3E70622673A3D000EEF48 /* AppDelegate.swift */,
 				F3A3E70822673A3D000EEF48 /* ViewController.swift */,
 				F373EAE6226892C4003CB1F5 /* SecondViewController.swift */,
-				F373EAE4226886E2003CB1F5 /* SecondTableViewController.swift */,
 				F3B5DA902269F5B200305A1A /* FeedTableViewCell.swift */,
 				F373EAE82268A48F003CB1F5 /* FeedData.swift */,
 				F373EAEA2268A53F003CB1F5 /* AppImageData.swift */,
@@ -156,7 +153,6 @@
 				F3A3E70922673A3D000EEF48 /* ViewController.swift in Sources */,
 				F3B5DA912269F5B200305A1A /* FeedTableViewCell.swift in Sources */,
 				F373EAEB2268A53F003CB1F5 /* AppImageData.swift in Sources */,
-				F373EAE5226886E2003CB1F5 /* SecondTableViewController.swift in Sources */,
 				F3A3E71922674B32000EEF48 /* SigninInfo.swift in Sources */,
 				F373EAE92268A48F003CB1F5 /* FeedData.swift in Sources */,
 				F373EAE7226892C4003CB1F5 /* SecondViewController.swift in Sources */,
