@@ -10,6 +10,7 @@ import UIKit
 
 class FeedTableViewCell: UITableViewCell {
     
+    // MARK: - Properties
     var profileImageView: UIImageView = UIImageView()
     var nickNameLabel: UILabel = UILabel()
     var feedImageView: UIImageView = UIImageView()
@@ -28,6 +29,7 @@ class FeedTableViewCell: UITableViewCell {
         }
     }
     
+    // MARK: - init method
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -48,11 +50,8 @@ class FeedTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - set up method
     func setup() {
-        
-//        profileImageView.image = UIImage(named: "")
-        
-        
         
         lineView.backgroundColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
         
@@ -66,9 +65,10 @@ class FeedTableViewCell: UITableViewCell {
         
     }
     
+    // MARK: - AutoLayout
     func autoLayOut() {
         
-        
+        // profile Image
         profileImageView.translatesAutoresizingMaskIntoConstraints = false
         
         profileImageView.widthAnchor.constraint(equalToConstant: 40).isActive = true
@@ -76,14 +76,14 @@ class FeedTableViewCell: UITableViewCell {
         profileImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10).isActive = true
         profileImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10).isActive = true
         
-        
+        // nickname Label
         nickNameLabel.translatesAutoresizingMaskIntoConstraints = false
         
         nickNameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5).isActive = true
         nickNameLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
         nickNameLabel.leadingAnchor.constraint(equalTo: profileImageView.trailingAnchor, constant: 10).isActive = true
         
-        
+        // Line
         lineView.translatesAutoresizingMaskIntoConstraints = false
         
         lineView.heightAnchor.constraint(equalToConstant: 0.5).isActive = true
@@ -91,7 +91,7 @@ class FeedTableViewCell: UITableViewCell {
         lineView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0).isActive = true
         lineView.topAnchor.constraint(equalTo: profileImageView.bottomAnchor, constant: 5).isActive = true
         
-        
+        // feed Image
         feedImageView.translatesAutoresizingMaskIntoConstraints = false
         
         feedImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 0).isActive = true
@@ -100,7 +100,7 @@ class FeedTableViewCell: UITableViewCell {
         feedImageView.heightAnchor.constraint(equalToConstant: 300).isActive = true
         feedImageView.topAnchor.constraint(equalTo: lineView.bottomAnchor, constant: 0).isActive = true
         
-        
+        // like Button
         likeButton.translatesAutoresizingMaskIntoConstraints = false
         
         likeButton.widthAnchor.constraint(equalToConstant: 40).isActive = true
@@ -108,7 +108,7 @@ class FeedTableViewCell: UITableViewCell {
         likeButton.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10).isActive = true
         likeButton.topAnchor.constraint(equalTo: feedImageView.bottomAnchor, constant: 0).isActive = true
         
-        
+        // comment Button
         commentButton.translatesAutoresizingMaskIntoConstraints = false
         
         commentButton.widthAnchor.constraint(equalToConstant: 40).isActive = true
@@ -116,8 +116,7 @@ class FeedTableViewCell: UITableViewCell {
         commentButton.leadingAnchor.constraint(equalTo: likeButton.trailingAnchor, constant: 0).isActive = true
         commentButton.topAnchor.constraint(equalTo: feedImageView.bottomAnchor, constant: 0).isActive = true
         
-        
-        
+        // message Button
         messageButton.translatesAutoresizingMaskIntoConstraints = false
         
         messageButton.widthAnchor.constraint(equalToConstant: 40).isActive = true
@@ -125,18 +124,20 @@ class FeedTableViewCell: UITableViewCell {
         messageButton.leadingAnchor.constraint(equalTo: commentButton.trailingAnchor, constant: 0).isActive = true
         messageButton.topAnchor.constraint(equalTo: feedImageView.bottomAnchor, constant: 0).isActive = true
         
-        
     }
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
         profileImageView.layer.cornerRadius = profileImageView.frame.width / 2
     }
     
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
     
+    // MARK: - like button Action method
     @objc func likeButtonDidTap(_ sender: UIButton) {
         sender.isSelected.toggle()
     }

@@ -11,11 +11,13 @@ import UIKit
 @IBDesignable
 class ViewController: UIViewController, UITextFieldDelegate {
     
+    // MARK: - User information
     let users: [User] = [
     User(name: "김도영", password: "1234"),
     User(name: "이정진", password: "abcd")
     ]
-
+    
+    // MARK: - Properties
     var signinButton = UIButton(type: .system)
     var logoImage = UIImageView()
     var idTextField = UITextField()
@@ -37,14 +39,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.pwTextField.delegate = self
     }
     
+    // MARK: - button, textField setting
     func setup() {
         signinButton.setTitle("Sign In", for: .normal)
-        signinButton.setTitleColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1), for: .normal)
-        signinButton.backgroundColor = #colorLiteral(red: 0.1215686277, green: 0.01176470611, blue: 0.4235294163, alpha: 1)
+        signinButton.setTitleColor(#colorLiteral(red: 0.009850479662, green: 0.29078269, blue: 0.5762767196, alpha: 1), for: .normal)
+        signinButton.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        signinButton.layer.cornerRadius = 10
+        signinButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         signinButton.addTarget(self, action: #selector(siginin(_:)), for: .touchUpInside)
         view.addSubview(signinButton)
         
-        logoImage.image = UIImage(named: "flogo")
+        logoImage.image = UIImage(named: "facebookblue")
         view.addSubview(logoImage)
         
 //        viewForSignin.backgroundColor = .red
@@ -80,9 +85,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         viewForSignin.addSubview(pwTextField)
     }
     
+    
+    // MARK: - AutoLayout
     var bottomfirstPriority: NSLayoutConstraint?
     var bottomSecondPriority: NSLayoutConstraint?
-    
     
     func autoLayout() {
         signinButton.translatesAutoresizingMaskIntoConstraints = false
@@ -94,8 +100,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         logoImage.translatesAutoresizingMaskIntoConstraints = false
         
         logoImage.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
-        logoImage.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        logoImage.heightAnchor.constraint(equalToConstant: 200).isActive = true
+        logoImage.widthAnchor.constraint(equalToConstant: 300).isActive = true
+        logoImage.heightAnchor.constraint(equalToConstant: 113).isActive = true
         logoImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50).isActive = true
         
         viewForSignin.translatesAutoresizingMaskIntoConstraints = false
@@ -116,19 +122,20 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         idTextField.translatesAutoresizingMaskIntoConstraints = false
         
-        idTextField.leadingAnchor.constraint(equalTo: viewForSignin.leadingAnchor, constant: 10).isActive = true
-        idTextField.trailingAnchor.constraint(equalTo: viewForSignin.trailingAnchor, constant: -10).isActive = true
+        idTextField.leadingAnchor.constraint(equalTo: viewForSignin.leadingAnchor, constant: 30).isActive = true
+        idTextField.trailingAnchor.constraint(equalTo: viewForSignin.trailingAnchor, constant: -30).isActive = true
         idTextField.topAnchor.constraint(equalTo: viewForSignin.topAnchor, constant: 3).isActive = true
         idTextField.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         pwTextField.translatesAutoresizingMaskIntoConstraints = false
         
-        pwTextField.leadingAnchor.constraint(equalTo: viewForSignin.leadingAnchor, constant: 10).isActive = true
-        pwTextField.trailingAnchor.constraint(equalTo: viewForSignin.trailingAnchor, constant: -10).isActive = true
+        pwTextField.leadingAnchor.constraint(equalTo: viewForSignin.leadingAnchor, constant: 30).isActive = true
+        pwTextField.trailingAnchor.constraint(equalTo: viewForSignin.trailingAnchor, constant: -30).isActive = true
         pwTextField.topAnchor.constraint(equalTo: idTextField.topAnchor, constant: 50).isActive = true
         pwTextField.heightAnchor.constraint(equalToConstant: 40).isActive = true
     }
     
+    // MARK: - Action method
     func textFieldDidBeginEditing(_ textField: UITextField) {
         print("텍스트 필드의 편집 시작")
         
@@ -142,6 +149,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    // MARK: - AlertController Action method
     @objc func siginin(_ sender: UIButton) {
         guard let id = idTextField.text, !id.isEmpty else {
             alert(title: "유저정보가 누락되었습니다.", message: "id를 입력해주세요.")
@@ -165,6 +173,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         alert(title: "Sign in 정보가 일치하지 않습니다.", message: "다시 입력해주세요.")
     }
     
+    // MARK: - AlertController setting method
     func alert(title: String, message: String) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
