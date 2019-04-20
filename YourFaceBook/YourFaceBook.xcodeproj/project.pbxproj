@@ -17,6 +17,7 @@
 		F3A3E70E22673A3F000EEF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A3E70D22673A3F000EEF48 /* Assets.xcassets */; };
 		F3A3E71122673A3F000EEF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A3E70F22673A3F000EEF48 /* LaunchScreen.storyboard */; };
 		F3A3E71922674B32000EEF48 /* SigninInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3E71822674B32000EEF48 /* SigninInfo.swift */; };
+		F3B5DA912269F5B200305A1A /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5DA902269F5B200305A1A /* FeedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F3A3E71022673A3F000EEF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A3E71222673A3F000EEF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3A3E71822674B32000EEF48 /* SigninInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninInfo.swift; sourceTree = "<group>"; };
+		F3B5DA902269F5B200305A1A /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				F3A3E70822673A3D000EEF48 /* ViewController.swift */,
 				F373EAE6226892C4003CB1F5 /* SecondViewController.swift */,
 				F373EAE4226886E2003CB1F5 /* SecondTableViewController.swift */,
+				F3B5DA902269F5B200305A1A /* FeedTableViewCell.swift */,
 				F373EAE82268A48F003CB1F5 /* FeedData.swift */,
 				F373EAEA2268A53F003CB1F5 /* AppImageData.swift */,
 				F3A3E71822674B32000EEF48 /* SigninInfo.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3A3E70922673A3D000EEF48 /* ViewController.swift in Sources */,
+				F3B5DA912269F5B200305A1A /* FeedTableViewCell.swift in Sources */,
 				F373EAEB2268A53F003CB1F5 /* AppImageData.swift in Sources */,
 				F373EAE5226886E2003CB1F5 /* SecondTableViewController.swift in Sources */,
 				F3A3E71922674B32000EEF48 /* SigninInfo.swift in Sources */,

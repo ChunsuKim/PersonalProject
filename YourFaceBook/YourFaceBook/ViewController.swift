@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class ViewController: UIViewController, UITextFieldDelegate {
     
     let users: [User] = [
@@ -52,7 +53,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         idTextField.keyboardAppearance = UIKeyboardAppearance.dark
         idTextField.enablesReturnKeyAutomatically = true
         idTextField.clearButtonMode = UITextField.ViewMode.always
-        idTextField.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        idTextField.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         idTextField.font = UIFont.systemFont(ofSize: 20)
         idTextField.layer.cornerRadius = 10
         idTextField.placeholder = "  id를 입력해주세요"
@@ -66,7 +67,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         pwTextField.keyboardAppearance = UIKeyboardAppearance.dark
         pwTextField.enablesReturnKeyAutomatically = true
         pwTextField.clearButtonMode = UITextField.ViewMode.always
-        pwTextField.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        pwTextField.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         pwTextField.font = UIFont.systemFont(ofSize: 20)
         pwTextField.layer.cornerRadius = 10
         pwTextField.placeholder = "  비밀번호를 입력해주세요"
