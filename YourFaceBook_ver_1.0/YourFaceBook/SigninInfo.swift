@@ -9,10 +9,13 @@
 class User {
     
     let name: String
+    let id: String
     let password: String
     
-    init(name: String, password: String) {
+    init(name: String, id: String, password: String) {
         self.name = name
+        self.id = id
         self.password = password
     }
 }
+

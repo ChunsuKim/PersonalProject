@@ -13,8 +13,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: - User information
     let users: [User] = [
-    User(name: "김도영", password: "1234"),
-    User(name: "이정진", password: "abcd")
+        User(name: "김도영", id: "doyoung", password: "1234"),
+        User(name: "이정진", id: "jung", password: "abcd"),
+        User(name: "김천수", id: "chunsu0816", password: "1234")
     ]
     
     // MARK: - Properties
@@ -161,11 +162,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         
         for user in users {
-            if user.name == id && user.password == password {
+            if user.id == id && user.password == password {
                 print("Signin Success")
                 
                 let secondViewController = SecondViewController()
-//                SecondTableViewController.currentUser = user
+//                secondViewController.signinInfoArr = user
                 present(secondViewController, animated: true, completion: nil)
             }
         }
