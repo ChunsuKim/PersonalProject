@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F373EAE7226892C4003CB1F5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373EAE6226892C4003CB1F5 /* SecondViewController.swift */; };
-		F373EAE92268A48F003CB1F5 /* FeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373EAE82268A48F003CB1F5 /* FeedData.swift */; };
-		F373EAEB2268A53F003CB1F5 /* AppImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373EAEA2268A53F003CB1F5 /* AppImageData.swift */; };
-		F3A3E70722673A3D000EEF48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3E70622673A3D000EEF48 /* AppDelegate.swift */; };
-		F3A3E70922673A3D000EEF48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3E70822673A3D000EEF48 /* ViewController.swift */; };
-		F3A3E70C22673A3D000EEF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A3E70A22673A3D000EEF48 /* Main.storyboard */; };
-		F3A3E70E22673A3F000EEF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A3E70D22673A3F000EEF48 /* Assets.xcassets */; };
-		F3A3E71122673A3F000EEF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A3E70F22673A3F000EEF48 /* LaunchScreen.storyboard */; };
-		F3A3E71922674B32000EEF48 /* SigninInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3E71822674B32000EEF48 /* SigninInfo.swift */; };
-		F3B5DA912269F5B200305A1A /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5DA902269F5B200305A1A /* FeedTableViewCell.swift */; };
+		F3DDDD8D2292758C00D84101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDDD8C2292758C00D84101 /* AppDelegate.swift */; };
+		F3DDDD8F2292758C00D84101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDDD8E2292758C00D84101 /* ViewController.swift */; };
+		F3DDDD922292758C00D84101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DDDD902292758C00D84101 /* Main.storyboard */; };
+		F3DDDD942292758E00D84101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DDDD932292758E00D84101 /* Assets.xcassets */; };
+		F3DDDD972292758E00D84101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DDDD952292758E00D84101 /* LaunchScreen.storyboard */; };
+		F3DDDDA12292764800D84101 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDDDA02292764800D84101 /* CustomTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F373EAE6226892C4003CB1F5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		F373EAE82268A48F003CB1F5 /* FeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedData.swift; sourceTree = "<group>"; };
-		F373EAEA2268A53F003CB1F5 /* AppImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImageData.swift; sourceTree = "<group>"; };
-		F3A3E70322673A3D000EEF48 /* YourFaceBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourFaceBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3A3E70622673A3D000EEF48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3A3E70822673A3D000EEF48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3A3E70B22673A3D000EEF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3A3E70D22673A3F000EEF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3A3E71022673A3F000EEF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3A3E71222673A3F000EEF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3A3E71822674B32000EEF48 /* SigninInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninInfo.swift; sourceTree = "<group>"; };
-		F3B5DA902269F5B200305A1A /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		F3DDDD892292758C00D84101 /* Dairy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dairy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DDDD8C2292758C00D84101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3DDDD8E2292758C00D84101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3DDDD912292758C00D84101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3DDDD932292758E00D84101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3DDDD962292758E00D84101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3DDDD982292758E00D84101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DDDDA02292764800D84101 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3A3E70022673A3D000EEF48 /* Frameworks */ = {
+		F3DDDD862292758C00D84101 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3A3E6FA22673A3D000EEF48 = {
+		F3DDDD802292758C00D84101 = {
 			isa = PBXGroup;
 			children = (
-				F3A3E70522673A3D000EEF48 /* YourFaceBook */,
-				F3A3E70422673A3D000EEF48 /* Products */,
+				F3DDDD8B2292758C00D84101 /* Dairy */,
+				F3DDDD8A2292758C00D84101 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3A3E70422673A3D000EEF48 /* Products */ = {
+		F3DDDD8A2292758C00D84101 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3A3E70322673A3D000EEF48 /* YourFaceBook.app */,
+				F3DDDD892292758C00D84101 /* Dairy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3A3E70522673A3D000EEF48 /* YourFaceBook */ = {
+		F3DDDD8B2292758C00D84101 /* Dairy */ = {
 			isa = PBXGroup;
 			children = (
-				F3A3E70622673A3D000EEF48 /* AppDelegate.swift */,
-				F3A3E70822673A3D000EEF48 /* ViewController.swift */,
-				F373EAE6226892C4003CB1F5 /* SecondViewController.swift */,
-				F3B5DA902269F5B200305A1A /* FeedTableViewCell.swift */,
-				F373EAE82268A48F003CB1F5 /* FeedData.swift */,
-				F373EAEA2268A53F003CB1F5 /* AppImageData.swift */,
-				F3A3E71822674B32000EEF48 /* SigninInfo.swift */,
-				F3A3E70A22673A3D000EEF48 /* Main.storyboard */,
-				F3A3E70D22673A3F000EEF48 /* Assets.xcassets */,
-				F3A3E70F22673A3F000EEF48 /* LaunchScreen.storyboard */,
-				F3A3E71222673A3F000EEF48 /* Info.plist */,
+				F3DDDD8C2292758C00D84101 /* AppDelegate.swift */,
+				F3DDDD8E2292758C00D84101 /* ViewController.swift */,
+				F3DDDDA02292764800D84101 /* CustomTabBarViewController.swift */,
+				F3DDDD902292758C00D84101 /* Main.storyboard */,
+				F3DDDD932292758E00D84101 /* Assets.xcassets */,
+				F3DDDD952292758E00D84101 /* LaunchScreen.storyboard */,
+				F3DDDD982292758E00D84101 /* Info.plist */,
 			);
-			path = YourFaceBook;
+			path = Dairy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3A3E70222673A3D000EEF48 /* YourFaceBook */ = {
+		F3DDDD882292758C00D84101 /* Dairy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3A3E71522673A3F000EEF48 /* Build configuration list for PBXNativeTarget "YourFaceBook" */;
+			buildConfigurationList = F3DDDD9B2292758E00D84101 /* Build configuration list for PBXNativeTarget "Dairy" */;
 			buildPhases = (
-				F3A3E6FF22673A3D000EEF48 /* Sources */,
-				F3A3E70022673A3D000EEF48 /* Frameworks */,
-				F3A3E70122673A3D000EEF48 /* Resources */,
+				F3DDDD852292758C00D84101 /* Sources */,
+				F3DDDD862292758C00D84101 /* Frameworks */,
+				F3DDDD872292758C00D84101 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YourFaceBook;
-			productName = YourFaceBook;
-			productReference = F3A3E70322673A3D000EEF48 /* YourFaceBook.app */;
+			name = Dairy;
+			productName = Dairy;
+			productReference = F3DDDD892292758C00D84101 /* Dairy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3A3E6FB22673A3D000EEF48 /* Project object */ = {
+		F3DDDD812292758C00D84101 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Chunsu Kim";
 				TargetAttributes = {
-					F3A3E70222673A3D000EEF48 = {
-						CreatedOnToolsVersion = 10.2;
+					F3DDDD882292758C00D84101 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = F3A3E6FE22673A3D000EEF48 /* Build configuration list for PBXProject "YourFaceBook" */;
+			buildConfigurationList = F3DDDD842292758C00D84101 /* Build configuration list for PBXProject "Dairy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F3A3E6FA22673A3D000EEF48;
-			productRefGroup = F3A3E70422673A3D000EEF48 /* Products */;
+			mainGroup = F3DDDD802292758C00D84101;
+			productRefGroup = F3DDDD8A2292758C00D84101 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3A3E70222673A3D000EEF48 /* YourFaceBook */,
+				F3DDDD882292758C00D84101 /* Dairy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3A3E70122673A3D000EEF48 /* Resources */ = {
+		F3DDDD872292758C00D84101 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A3E71122673A3F000EEF48 /* LaunchScreen.storyboard in Resources */,
-				F3A3E70E22673A3F000EEF48 /* Assets.xcassets in Resources */,
-				F3A3E70C22673A3D000EEF48 /* Main.storyboard in Resources */,
+				F3DDDD972292758E00D84101 /* LaunchScreen.storyboard in Resources */,
+				F3DDDD942292758E00D84101 /* Assets.xcassets in Resources */,
+				F3DDDD922292758C00D84101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3A3E6FF22673A3D000EEF48 /* Sources */ = {
+		F3DDDD852292758C00D84101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A3E70922673A3D000EEF48 /* ViewController.swift in Sources */,
-				F3B5DA912269F5B200305A1A /* FeedTableViewCell.swift in Sources */,
-				F373EAEB2268A53F003CB1F5 /* AppImageData.swift in Sources */,
-				F3A3E71922674B32000EEF48 /* SigninInfo.swift in Sources */,
-				F373EAE92268A48F003CB1F5 /* FeedData.swift in Sources */,
-				F373EAE7226892C4003CB1F5 /* SecondViewController.swift in Sources */,
-				F3A3E70722673A3D000EEF48 /* AppDelegate.swift in Sources */,
+				F3DDDD8F2292758C00D84101 /* ViewController.swift in Sources */,
+				F3DDDD8D2292758C00D84101 /* AppDelegate.swift in Sources */,
+				F3DDDDA12292764800D84101 /* CustomTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3A3E70A22673A3D000EEF48 /* Main.storyboard */ = {
+		F3DDDD902292758C00D84101 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3A3E70B22673A3D000EEF48 /* Base */,
+				F3DDDD912292758C00D84101 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3A3E70F22673A3F000EEF48 /* LaunchScreen.storyboard */ = {
+		F3DDDD952292758E00D84101 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3A3E71022673A3F000EEF48 /* Base */,
+				F3DDDD962292758E00D84101 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3A3E71322673A3F000EEF48 /* Debug */ = {
+		F3DDDD992292758E00D84101 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		F3A3E71422673A3F000EEF48 /* Release */ = {
+		F3DDDD9A2292758E00D84101 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,36 +282,34 @@
 			};
 			name = Release;
 		};
-		F3A3E71622673A3F000EEF48 /* Debug */ = {
+		F3DDDD9C2292758E00D84101 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AY83H9JUQP;
-				INFOPLIST_FILE = YourFaceBook/Info.plist;
+				INFOPLIST_FILE = Dairy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.chunsukim.YourFaceBook;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chunsukim.MyApp.Dairy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F3A3E71722673A3F000EEF48 /* Release */ = {
+		F3DDDD9D2292758E00D84101 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AY83H9JUQP;
-				INFOPLIST_FILE = YourFaceBook/Info.plist;
+				INFOPLIST_FILE = Dairy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.chunsukim.YourFaceBook;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.chunsukim.MyApp.Dairy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3A3E6FE22673A3D000EEF48 /* Build configuration list for PBXProject "YourFaceBook" */ = {
+		F3DDDD842292758C00D84101 /* Build configuration list for PBXProject "Dairy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3A3E71322673A3F000EEF48 /* Debug */,
-				F3A3E71422673A3F000EEF48 /* Release */,
+				F3DDDD992292758E00D84101 /* Debug */,
+				F3DDDD9A2292758E00D84101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3A3E71522673A3F000EEF48 /* Build configuration list for PBXNativeTarget "YourFaceBook" */ = {
+		F3DDDD9B2292758E00D84101 /* Build configuration list for PBXNativeTarget "Dairy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3A3E71622673A3F000EEF48 /* Debug */,
-				F3A3E71722673A3F000EEF48 /* Release */,
+				F3DDDD9C2292758E00D84101 /* Debug */,
+				F3DDDD9D2292758E00D84101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3A3E6FB22673A3D000EEF48 /* Project object */;
+	rootObject = F3DDDD812292758C00D84101 /* Project object */;
 }
