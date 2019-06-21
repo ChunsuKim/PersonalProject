@@ -1,0 +1,259 @@
+/*
+ Manifest
+ */
+
+ManifestStyle
+{
+    -kakaotalk-theme-name: 'Apeach Sample Theme';
+    -kakaotalk-theme-version: '8.0.0';
+    -kakaotalk-theme-url: 'http://www.kakao.com';
+    -kakaotalk-author-name: 'Kakao Corp.';
+    -kakaotalk-theme-id: 'com.kakao.talk.theme.apeachsampleios';
+}
+
+
+/*
+ TabBar Style
+ */
+
+TabBarStyle-Main
+{
+    /* 배경 이미지 */
+    background-color: ;
+    -ios-background-image: 'maintabBgImage.png';		/* 배경 이미지 top-center-crop */
+    
+    /* 친구탭 */
+    -ios-friends-normal-icon-image: 'maintabIcoFriends.png';
+    -ios-friends-selected-icon-image: 'maintabIcoFriendsSelected.png';
+    /* 채팅탭 */
+    -ios-chats-normal-icon-image: 'maintabIcoChats.png';
+    -ios-chats-selected-icon-image: 'maintabIcoChatsSelected.png';
+    /* 친구찾기 (글로벌) */
+    -ios-find-normal-icon-image: 'maintabIcoFind.png';
+    -ios-find-selected-icon-image: 'maintabIcoFindSelected.png';
+    /* 채널탭 */
+    -ios-browse-normal-icon-image: 'maintabIcoBrowse.png';
+    -ios-browse-selected-icon-image: 'maintabIcoBrowseSelected.png';
+    /* 만화탭 (일본) */
+    -ios-piccoma-normal-icon-image: 'maintabIcoPiccoma.png';
+    -ios-piccoma-selected-icon-image: 'maintabIcoPiccomaSelected.png';
+    /* 게임탭 */
+    -ios-game-normal-icon-image: 'maintabIcoGame.png';
+    -ios-game-selected-icon-image: 'maintabIcoGameSelected.png';
+    /* 더보기탭 */
+    -ios-more-normal-icon-image: 'maintabIcoMore.png';
+    -ios-more-selected-icon-image: 'maintabIcoMoreSelected.png';
+}
+
+
+/*
+ MainView Style
+ */
+
+HeaderStyle-Main
+{
+    -ios-text-color: #664242;
+
+    -ios-tab-text-color: #B39898;
+    -ios-tab-highlighted-text-color: #664242;
+}
+
+MainViewStyle-Primary
+{
+    background-color: #FFDEDE;
+    -ios-background-image: 'mainBgImage.png';
+
+    /* 텍스트 스타일 */
+    -ios-text-color: #664242;                                   /* Title : 리스트 목록*/
+    -ios-highlighted-text-color: #946C6C;                       /* Title Pressed */
+    
+    -ios-description-text-color: #805959;                       /* Description : 상태메세지 */
+    -ios-description-highlighted-text-color: #946C6C;           /* Description Pressed */
+
+    -ios-paragraph-text-color: #805959;                         /* Paragraph : 라스트메세지 */ 
+    -ios-paragraph-highlighted-text-color: #946C6C;             /* Paragraph Pressed*/
+
+    /* 셀 스타일 */
+    -ios-normal-background-color: #F66C6C;                      /* Cell Background */
+    -ios-normal-background-alpha: 0.0;
+    
+    -ios-selected-background-color: #664242;                    /* Cell Background Pressed */
+    -ios-selected-background-alpha: 0.05;
+}
+
+MainViewStyle-Secondary
+{
+    background-color: #FFE3E3;
+}
+
+SectionTitleStyle-Main
+{    
+    border-color: #F66C6C;
+    border-alpha: 0.09;
+    
+    -ios-text-color: #F66C6C;
+    -ios-text-alpha: 1.0;
+}
+
+
+/*
+ Feature Style
+ */
+
+FeatureStyle-Primary                                            /* Primary : 버튼 텍스트 */
+{
+    -ios-text-color: #805959;
+}
+
+
+ButtonStyle-AddFriend
+{
+    -ios-image: 'findBtnAddFriend.png';
+}
+
+
+/*
+ DefaultProfile Style
+*/
+
+DefaultProfileStyle
+{
+    /* 프로필 */
+    -ios-profile-images: 'profileImg01.png';
+}
+
+
+/*
+ ChatRoom Style
+ */
+
+BackgroundStyle-ChatRoom
+{
+    background-color: #FFDEDE;
+    -ios-background-image: 'chatroomBgImage.png';
+}
+
+InputBarStyle-Chat
+{
+    /* 입력창 배경 */
+    background-color: #FFFFFF;
+    
+    /* 전송 버튼 */
+    -ios-send-normal-background-color: #FF7F7F;
+    -ios-send-normal-foreground-color: #FFFFFF;
+    
+    -ios-send-highlighted-background-color: #F27979;
+    -ios-send-highlighted-foreground-color: #FFDEDE;
+
+    /* 그밖의 버튼 */
+    -ios-button-normal-foreground-color: #F7A4A4;
+    -ios-button-highlighted-foreground-color: #FF7F7F;
+}
+
+
+/*
+ Message Style
+ */
+
+MessageCellStyle-Send
+{
+    -ios-background-image: 'chatroomBubbleSend01.png' 20px 20px;
+    -ios-selected-background-image: 'chatroomBubbleSend01Selected.png' 20px 20px;
+    -ios-group-background-image: 'chatroomBubbleSend02.png' 20px 20px;
+    -ios-group-selected-background-image: 'chatroomBubbleSend02Selected.png' 20px 20px;
+    -ios-title-edgeinsets: 10px 10px 7px 12px;  /* top, left, bottom, right */
+    -ios-group-title-edgeinsets: 10px 10px 7px 12px;
+
+    -ios-text-color: #FFFFFF;
+    -ios-selected-text-color: #4D4D4D;
+    -ios-unread-text-color: #FF7F7F;
+}
+
+MessageCellStyle-Receive
+{
+    -ios-background-image: 'chatroomBubbleReceive01.png' 20px 20px;
+    -ios-selected-background-image: 'chatroomBubbleReceive01Selected.png' 20px 20px;
+    -ios-group-background-image: 'chatroomBubbleReceive02.png' 20px 20px;
+    -ios-group-selected-background-image: 'chatroomBubbleReceive02Selected.png' 20px 20px; 
+    -ios-title-edgeinsets: 10px 16px 7px 10px;  /* top, left, bottom, right */
+    -ios-group-title-edgeinsets: 10px 16px 7px 10px;
+
+    -ios-text-color: #4D4D4D;
+    -ios-selected-text-color: #4D4D4D;
+    -ios-unread-text-color: #FF7F7F;
+}
+
+
+/*
+ Passcode Style
+ */
+
+BackgroundStyle-Passcode
+{
+    background-color: #FFDEDE;
+    -ios-background-image: 'passcodeBgImage.png';
+}
+
+LabelStyle-PasscodeTitle
+{
+    -ios-text-color: #664242;
+}
+
+
+PasscodeStyle
+{
+    -ios-bullet-first-image: 'passcodeImgCode01.png';
+    -ios-bullet-second-image: 'passcodeImgCode02.png';
+    -ios-bullet-third-image: 'passcodeImgCode03.png';
+    -ios-bullet-fourth-image: 'passcodeImgCode04.png';
+    
+    -ios-bullet-selected-first-image: 'passcodeImgCode01Selected.png';
+    -ios-bullet-selected-second-image: 'passcodeImgCode02Selected.png';
+    -ios-bullet-selected-third-image: 'passcodeImgCode03Selected.png';
+    -ios-bullet-selected-fourth-image: 'passcodeImgCode04Selected.png';
+    
+    -ios-keypad-background-color: #FFF2F2;
+    -ios-keypad-text-normal-color: #664242;
+        
+    -ios-keypad-number-highlighted-image : 'passcodeKeypadPressed.png';
+}
+
+
+/*
+ Message Notification Bar Style
+ */
+
+BackgroundStyle-MessageNotificationBar
+{
+    background-color: #FCC5C5;
+}
+
+LabelStyle-MessageNotificationBarName
+{
+    -ios-text-color: #604242;
+}
+
+LabelStyle-MessageNotificationBarMessage
+{
+    -ios-text-color: #805959;
+}
+
+
+/*
+ Direct Share
+*/
+
+BackgroundStyle-DirectShareBar
+{
+    background-color: #FFFFFF;
+}
+
+LabelStyle-DirectShareBarName
+{
+    -ios-text-color: #B35959;
+}
+
+LabelStyle-DirectShareBarMessage
+{
+    -ios-text-color: #D47B82;
+}
